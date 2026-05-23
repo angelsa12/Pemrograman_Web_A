@@ -3,24 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Web Layout</title>
+  <title>My Website</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
   <header>
     <h1>My Website</h1>
+
     <button id="menu-toggle">☰ Menu</button>
+
     <nav id="navbar" class="hidden">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+
+      <!-- LINK KE REPOSITORY -->
+      <a href="https://github.com/angelsa12/Pemrograman_Web_A" target="_blank">
+        Repository
+      </a>
     </nav>
   </header>
 
   <main>
     <h2>Welcome</h2>
-    <p>Contoh Web Layout Sederhana dengan HTML, CSS, and JavaScript.</p>
+
+    <p>
+      Contoh Web Layout Sederhana dengan HTML, CSS, dan JavaScript.
+    </p>
+
+    <button onclick="window.location.href='https://github.com/angelsa12/Pemrograman_Web_A'">
+      Buka Repository GitHub
+    </button>
   </main>
 
   <footer>
@@ -28,5 +45,6 @@
   </footer>
 
   <script src="js.js"></script>
+
 </body>
 </html>
